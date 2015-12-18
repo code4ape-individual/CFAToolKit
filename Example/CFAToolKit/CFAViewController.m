@@ -8,6 +8,8 @@
 
 #import "CFAViewController.h"
 
+#import "NSDate+CFA.h"
+
 @interface CFAViewController ()
 
 @end
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    NSLog(@"%ld",[[NSDate date] getDay]);
+    
 }
 
 - (void)didReceiveMemoryWarning

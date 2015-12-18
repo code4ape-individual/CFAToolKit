@@ -7,7 +7,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+个人工具集。
 
 ## Requirements
 
