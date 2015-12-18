@@ -8,7 +8,8 @@
 
 #import "CFAViewController.h"
 
-#import "NSDate+CFA.h"
+#import <NSDate+CFA.h>
+#import <NSString+CFA.h>
 
 @interface CFAViewController ()
 

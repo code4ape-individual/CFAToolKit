@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FEDD51A0BF9283D6DB7A446 /* Pods_CFAToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FDF950E3E523FB67CBD874E /* Pods_CFAToolKit_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C7A49A52E3CE1267A4A0526C /* Pods_CFAToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07265DC50218B66F0236898 /* Pods_CFAToolKit_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EA0984EABF161ABCE0D0FB07 /* libPods-CFAToolKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0DCB53A69506012D8E9E1B /* libPods-CFAToolKit_Example.a */; };
+		F97CC2CCAE52D0F2C7721C77 /* libPods-CFAToolKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592E2A5E35B80661F287F768 /* libPods-CFAToolKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FDF950E3E523FB67CBD874E /* Pods_CFAToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFAToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3FD81629A4768BFE72CF06 /* Pods-CFAToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFAToolKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFAToolKit_Tests/Pods-CFAToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		592E2A5E35B80661F287F768 /* libPods-CFAToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFAToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CFAToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFAToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +61,8 @@
 		6E8A4C7C8F2FF22AC4785A1D /* CFAToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CFAToolKit.podspec; path = ../CFAToolKit.podspec; sourceTree = "<group>"; };
 		7D81FA271774F242BCAD0790 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B07265DC50218B66F0236898 /* Pods_CFAToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFAToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC3F6115951D38EA366E0BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED0DCB53A69506012D8E9E1B /* libPods-CFAToolKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFAToolKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52FE1D95CF29CA78FBC7587 /* Pods-CFAToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFAToolKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFAToolKit_Example/Pods-CFAToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FC1534A7ED83320F1DD85C1B /* Pods-CFAToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFAToolKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFAToolKit_Tests/Pods-CFAToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5FEDD51A0BF9283D6DB7A446 /* Pods_CFAToolKit_Example.framework in Frameworks */,
+				EA0984EABF161ABCE0D0FB07 /* libPods-CFAToolKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C7A49A52E3CE1267A4A0526C /* Pods_CFAToolKit_Tests.framework in Frameworks */,
+				F97CC2CCAE52D0F2C7721C77 /* libPods-CFAToolKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1FDF950E3E523FB67CBD874E /* Pods_CFAToolKit_Example.framework */,
-				B07265DC50218B66F0236898 /* Pods_CFAToolKit_Tests.framework */,
+				ED0DCB53A69506012D8E9E1B /* libPods-CFAToolKit_Example.a */,
+				592E2A5E35B80661F287F768 /* libPods-CFAToolKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FEA4229E74BEC836AA868A0B /* Embed Pods Frameworks */,
 				28C9352E866A8F96B67117DE /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				293101B43B8D2C3465231833 /* Embed Pods Frameworks */,
 				CE3FD1B9C1CAA96BC15F9E2E /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -308,21 +306,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFAToolKit_Example/Pods-CFAToolKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		293101B43B8D2C3465231833 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFAToolKit_Tests/Pods-CFAToolKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B95554BA42C8664D2E490F8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,21 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFAToolKit_Tests/Pods-CFAToolKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEA4229E74BEC836AA868A0B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFAToolKit_Example/Pods-CFAToolKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

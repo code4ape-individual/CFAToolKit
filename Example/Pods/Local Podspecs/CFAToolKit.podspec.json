@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "Summary of toolkit",
   "description": "aldskfja;ldskfj;aldksjf;alksdjf;alkdsjf;alksdjf;alskjdf",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CFAToolKit",
+  "homepage": "https://github.com/code4ape-individual/CFAToolKit",
   "license": "MIT",
   "authors": {
     "dengjunjie": "dengjunjie@yaochufa.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CFAToolKit.git",
+    "git": "https://github.com/code4ape-individual/CFAToolKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

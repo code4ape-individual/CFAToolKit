@@ -1,6 +1,0 @@
-framework module Pods_CFAToolKit_Example {
-  umbrella header "Pods-CFAToolKit_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
