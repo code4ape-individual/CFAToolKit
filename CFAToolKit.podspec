@@ -22,9 +22,10 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/code4ape-individual/CFAToolKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  # s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "code4ape" => "junjie_deng@qq.com" }
+
   s.source           = { :git => "https://github.com/code4ape-individual/CFAToolKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,15 +38,15 @@ Pod::Spec.new do |s|
   }
 
   s.subspec 'Basic' do |sp|
-    sp.source_files = 'Pod/Classes/Baisc'
+    sp.source_files = 'Pod/Classes/Basic/**/*'
   end
 
   s.subspec 'Service' do |sp|
-  sp.source_files = 'Pod/Classes/Service'
+    sp.source_files = 'Pod/Classes/Service/**/*'
   end
 
   s.subspec 'CustomUI' do |sp|
-  sp.source_files = 'Pod/Classes/CustomUI'
+    sp.source_files = 'Pod/Classes/CustomUI/**/*'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

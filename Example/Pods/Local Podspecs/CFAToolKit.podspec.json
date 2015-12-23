@@ -1,12 +1,12 @@
 {
   "name": "CFAToolKit",
   "version": "0.1.0",
-  "summary": "Summary of toolkit",
-  "description": "aldskfja;ldskfj;aldksjf;alksdjf;alkdsjf;alksdjf;alskjdf",
+  "summary": "Personal kit.",
+  "description": "个人工具集，目前包括Baisc、service、CustomUI三部分。",
   "homepage": "https://github.com/code4ape-individual/CFAToolKit",
   "license": "MIT",
   "authors": {
-    "dengjunjie": "dengjunjie@yaochufa.com"
+    "code4ape": "junjie_deng@qq.com"
   },
   "source": {
     "git": "https://github.com/code4ape-individual/CFAToolKit.git",
@@ -25,15 +25,15 @@
   "subspecs": [
     {
       "name": "Basic",
-      "source_files": "Pod/Classes/Baisc"
+      "source_files": "Baisc"
     },
     {
       "name": "Service",
-      "source_files": "Pod/Classes/Service"
+      "source_files": "Service"
     },
     {
       "name": "CustomUI",
-      "source_files": "Pod/Classes/CustomUI"
+      "source_files": "CustomUI"
     }
   ]
 }
