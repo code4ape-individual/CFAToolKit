@@ -87,6 +87,7 @@
 		88AC679011285B65E51CA9B0B9C4F9D4 /* Pods-CFAToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99297B9A241927247D8FD34A4F207A34 /* CFAToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAToolKit.xcconfig; sourceTree = "<group>"; };
 		9CD7CCADC0FE642A813897B56DB7C251 /* Pods-CFAToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAToolKit_Example-dummy.m"; sourceTree = "<group>"; };
+		9E0957DD1C2AAC7300224FB3 /* CustomUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUI.h; sourceTree = "<group>"; };
 		A87172DEA5FF66001EF1B6824C4266D0 /* UIButton+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFA.h"; sourceTree = "<group>"; };
 		AD00603AEB206A71B2A53F2BBEF560B3 /* CFABluetoothHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFABluetoothHelper.h; sourceTree = "<group>"; };
 		B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -224,6 +225,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		9E0957DC1C2AAC5600224FB3 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				9E0957DD1C2AAC7300224FB3 /* CustomUI.h */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		A212589991005DD6C2C5A3CBD7CA5C22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +244,7 @@
 		B3E7149566CEDD34B1D837B170C17A3F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9E0957DC1C2AAC5600224FB3 /* CustomUI */,
 				D046F71F9333D73F7EDEF43F09DB9565 /* Basic */,
 				F6600A538D8445C40621EEEDB4C02D87 /* Service */,
 			);

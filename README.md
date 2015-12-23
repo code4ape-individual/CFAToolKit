@@ -9,7 +9,7 @@
 
 个人工具集。
 
-## Requirements
+<!--## Requirements-->
 
 ## Installation
 
@@ -22,7 +22,7 @@ pod "CFAToolKit"
 
 ## Author
 
-dengjunjie, dengjunjie@yaochufa.com
+code4ape, junjie_deng@qq.com
 
 ## License
 
