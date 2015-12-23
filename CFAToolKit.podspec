@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CFAToolKit"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "Personal kit."
 
 # This description is used to generate tags and improve search results.
@@ -43,6 +43,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Service' do |sp|
     sp.source_files = 'Pod/Classes/Service/**/*'
+    sp.dependency 'CFAToolKit/Basic'
   end
 
   s.subspec 'CustomUI' do |sp|
