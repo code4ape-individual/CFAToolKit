@@ -36,6 +36,10 @@ aldskfja;ldskfj;aldksjf;alksdjf;alkdsjf;alksdjf;alskjdf
     'CFAToolKit' => ['Pod/Assets/*.png']
   }
 
+  s.subspec 'Basic' do |sp|
+    sp.source_files = 'Pod/Classes/Baisc'
+  end
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

@@ -1,5 +1,7 @@
 PODS:
-  - CFAToolKit (0.1.0)
+  - CFAToolKit (0.1.0):
+    - CFAToolKit/Basic (= 0.1.0)
+  - CFAToolKit/Basic (0.1.0)
 
 DEPENDENCIES:
   - CFAToolKit (from `../`)
@@ -9,6 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CFAToolKit: adac6264f45decfd3730c8dc6de60c99ce1a6658
+  CFAToolKit: 1dfca057acbde94663c5af57b160c45e2fe2e47c
 
 COCOAPODS: 0.38.2
