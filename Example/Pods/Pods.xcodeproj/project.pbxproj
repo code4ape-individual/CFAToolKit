@@ -7,95 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039F853B9E070DDAAD02C1370922576D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866BF35209AB8386A70BA2BB6E06FF0E /* Foundation.framework */; };
-		0E495CA9088D5ADD4B9A1E8D45B6692B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866BF35209AB8386A70BA2BB6E06FF0E /* Foundation.framework */; };
-		219BD3E11CC9EA35F0616692B511C98A /* UIView+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = C49C3DAFEDCDCE530559F54A9C5FF59A /* UIView+CFA.m */; };
+		02C4648C96F65D17F65F49F7557628CA /* NSString+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 084C726D4DB62D53B61D7125644EC693 /* NSString+CFA.m */; };
+		0E495CA9088D5ADD4B9A1E8D45B6692B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */; };
+		19585985D4D53B9406DBA1A850331FD1 /* NSDictionary+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 7880010369C3952978E735961C0F260D /* NSDictionary+CFA.h */; };
+		1AF10255E1857279D43EB91720B23936 /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F04D804DAA8C86327E5EA4F97CEA431 /* Service.h */; };
+		1DED6AEF629EAEA3DBEF5ADE210F5375 /* UILabel+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DFD323912922D74218A2CB22FFF0 /* UILabel+CFA.m */; };
+		1F5DBE2EAE0D27F34883FB7E6A491FC9 /* UIImage+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD58E70B72B60F45BC5532FE04C39 /* UIImage+CFA.m */; };
+		21701045308654D2BFC9E7BA0EDE5E76 /* UIImage+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DBE38633DF3EBEA948A3B97B1449CC /* UIImage+CFA.h */; };
+		219367571F1FA19642373B4810F09331 /* UIButton+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE56C88419DE9A715CE0CF39EBF77B /* UIButton+CFA.m */; };
 		222148E14E840F93A030F2A701EFE0DD /* Pods-CFAToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9863B7A55C4C7341FC1D0D6A21E3063 /* Pods-CFAToolKit_Tests-dummy.m */; };
-		23A504A09F766B5CAD5F28B43AEC7FEE /* UIColor+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B0F7B8AB96B4A27B9B96FF38A49DA7 /* UIColor+CFA.h */; };
-		3585791B807C4B4BD66E8E0705F405D0 /* UILabel+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5BFB2726E14B13FB96E1F0031B121 /* UILabel+CFA.h */; };
-		4B7208E54FC1299ED325BA14866E1738 /* NSString+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC638E71332A1EB5C692C5ADFF793A9 /* NSString+CFA.h */; };
-		51ECBFEC85BA8E6EE5C89DF92852450D /* NSString+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB92ABDFEF34BCEE6EC68B239F70B65 /* NSString+CFA.m */; };
-		553FE2851E393DCAABAA66AD48083ED0 /* UIColor+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814D342E10DA96FCD278D420E9180DF /* UIColor+CFA.m */; };
-		56D4EF830812DD372B0EB25CC676010D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866BF35209AB8386A70BA2BB6E06FF0E /* Foundation.framework */; };
-		5AEBDAC3B16BE7BC5FDFD9F54219BDEE /* UIImage+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F53127F33088D7F11A3D9F562FD2ED /* UIImage+CFA.m */; };
-		60D30DE5CB4AB51ABD55AD1C0CEA1DB5 /* CFAToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15173DC53FAE48D24CB078A1D944A7C /* CFAToolKit-dummy.m */; };
-		7EDD6E08B42994E2FA25246A63DE83A1 /* NSDate+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 24463E63B31F00125E2779B9924922F8 /* NSDate+CFA.h */; };
-		80AF8211D941D69B871363BAAFDEFCFD /* Basic.h in Headers */ = {isa = PBXBuildFile; fileRef = F43F973EC3E4D84D2B578D959E293BC5 /* Basic.h */; };
-		9394CE74EE1409587B27B69BD8B2ADE1 /* UIImage+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = C7113912C2FC469A0363FF60A71998CC /* UIImage+CFA.h */; };
-		B85FA1BA11EBE27C63376EA8930DF266 /* NSDictionary+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = B28E1988FCD855966444E5D2CEA25E61 /* NSDictionary+CFA.m */; };
-		C35B5A959EA9D622D5C09940A66F31EC /* UILabel+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC71B121D4EE7C0DB4D05A6E4D5DC7 /* UILabel+CFA.m */; };
-		C7846A5C3E5FAB80A614B5F1998FFFC3 /* UIButton+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = FC153E405ECB4ACD3EA4B03DCFDAA5E6 /* UIButton+CFA.h */; };
-		DBA1301560600EC7F33300AC3AC3FA7E /* UIButton+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA2E54E4B9F4FCD850F91CAA93501C /* UIButton+CFA.m */; };
+		23BB22E0F8B2BE1D7E4E99C4749EA9CA /* UIColor+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3945B359618ACCF9EF490A2C4EED60 /* UIColor+CFA.m */; };
+		2BD8CE24751A7C4F274A307CD309530B /* CFACounter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD69BE76452C7929D342D46E094D054A /* CFACounter.h */; };
+		2E2700EA1FD630F8E01406AFE03CDA2B /* UIButton+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = A87172DEA5FF66001EF1B6824C4266D0 /* UIButton+CFA.h */; };
+		471A07B4619B69759A5E92FAB3C04406 /* UIView+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C6357E55156F2B5B77C34711711E49 /* UIView+CFA.h */; };
+		56D4EF830812DD372B0EB25CC676010D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */; };
+		58D7CEDBEA6FB232F971C3AC358431AE /* Basic.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EA5346169FBB5083608A64F0EA4E6F /* Basic.h */; };
+		6D6DEB3CA8CA08144006624B8B2822E2 /* CFABluetoothHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E43A10D394D774E417C2904B6D644A12 /* CFABluetoothHelper.m */; };
+		77D4BC87ED4B46127BB255B12CE723A7 /* CFACounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A82170FB8616217FB60DC65798EAB97 /* CFACounter.m */; };
+		941F1B69EE4AF9371E2488B82039222B /* UIColor+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2208FE464A0723C0BFBC6A42F33104C5 /* UIColor+CFA.h */; };
+		A2D32B82F3965B0CF2D0F6F8E12C70A0 /* NSDictionary+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443A0028AD8CCD16C3413197D355B34 /* NSDictionary+CFA.m */; };
+		A3C62BCD72F2092A2145A73E0604B031 /* CFABluetoothHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD00603AEB206A71B2A53F2BBEF560B3 /* CFABluetoothHelper.h */; };
+		B2B0977AC88C58FBAB2E21DAB264C7A8 /* NSDate+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0D5B3DA37A20F9979EAABBF2A56F2 /* NSDate+CFA.m */; };
+		B642E7B3E5B1AB27873697B65B2C8990 /* NSDate+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 051B76E37BC2F43FB2B6B27097305061 /* NSDate+CFA.h */; };
+		B8D81B68D3EE939377F8A645F269DEDC /* CFAToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4565DA00F037014966CE63BD46CB154 /* CFAToolKit-dummy.m */; };
+		CB05C7B6614C9C8CE632FB25F9D85CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */; };
+		D701578BB3F8F563E7793AB0E9FD76AA /* NSString+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = F20D56E12BAE4DF9C469B76F75D01402 /* NSString+CFA.h */; };
 		DC8E8D331BC5433E7E30541B5E59DE23 /* Pods-CFAToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CCADC0FE642A813897B56DB7C251 /* Pods-CFAToolKit_Example-dummy.m */; };
-		E8243643E1A6CC4040E50A6FE8654C9C /* NSDictionary+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 074F4C17CFA31AAF21A572B2D949EED0 /* NSDictionary+CFA.h */; };
-		F3488365DBFD8E50BAE5DCF56A5093B5 /* UIView+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF0D753C963F6E4D3305B368760ADD /* UIView+CFA.h */; };
-		FCA1DDCBD62244D3E367B106D17B84EC /* NSDate+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = E655E41E0DA73BCD8455F8F035E6E9F7 /* NSDate+CFA.m */; };
+		E8969AEC4A119573908962FD8FC9B24C /* UILabel+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F9CD9571422CC9DFDA1B5A7326FD97 /* UILabel+CFA.h */; };
+		E8EEBE46D822D623E7AFBC458DBB6B15 /* UIView+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 71729373E00DF95145D80353E8F7AC22 /* UIView+CFA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07AF808A8BA0610F79CF4C89980D8155 /* PBXContainerItemProxy */ = {
+		787D8F9532BADD2FAD8A834AAFC5B268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28BF3B9A292453D10FF0ED5A76C46D45;
+			remoteGlobalIDString = AE6E9C8DB867D750441AC617B44C0BE9;
 			remoteInfo = CFAToolKit;
 		};
-		21C735057EC5D519F0B3F8E423888BAC /* PBXContainerItemProxy */ = {
+		83CC7CE67C33D5CF7C4783AD8AD75845 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28BF3B9A292453D10FF0ED5A76C46D45;
+			remoteGlobalIDString = AE6E9C8DB867D750441AC617B44C0BE9;
 			remoteInfo = CFAToolKit;
 		};
-		BB70A584A27671F815D731819523159D /* PBXContainerItemProxy */ = {
+		DE270547B760D149FF42CAD6A8F019AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1602952B5EC4DD96FB7FBD841336F642;
+			remoteGlobalIDString = 3AC8FE18CE9BCEA3756919517420FE49;
 			remoteInfo = "CFAToolKit-CFAToolKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0217377794259A5B36B6794C653E2AFB /* CFAToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFAToolKit-prefix.pch"; sourceTree = "<group>"; };
-		074F4C17CFA31AAF21A572B2D949EED0 /* NSDictionary+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CFA.h"; sourceTree = "<group>"; };
-		1BB92ABDFEF34BCEE6EC68B239F70B65 /* NSString+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFA.m"; sourceTree = "<group>"; };
-		20AA2E54E4B9F4FCD850F91CAA93501C /* UIButton+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CFA.m"; sourceTree = "<group>"; };
-		24463E63B31F00125E2779B9924922F8 /* NSDate+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFA.h"; sourceTree = "<group>"; };
-		24DF0D753C963F6E4D3305B368760ADD /* UIView+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CFA.h"; sourceTree = "<group>"; };
+		051B76E37BC2F43FB2B6B27097305061 /* NSDate+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFA.h"; sourceTree = "<group>"; };
+		084C726D4DB62D53B61D7125644EC693 /* NSString+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFA.m"; sourceTree = "<group>"; };
+		09DBE38633DF3EBEA948A3B97B1449CC /* UIImage+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFA.h"; sourceTree = "<group>"; };
+		0AEBD58E70B72B60F45BC5532FE04C39 /* UIImage+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFA.m"; sourceTree = "<group>"; };
+		1443A0028AD8CCD16C3413197D355B34 /* NSDictionary+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CFA.m"; sourceTree = "<group>"; };
+		1A82170FB8616217FB60DC65798EAB97 /* CFACounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFACounter.m; sourceTree = "<group>"; };
+		21EE56C88419DE9A715CE0CF39EBF77B /* UIButton+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CFA.m"; sourceTree = "<group>"; };
+		2208FE464A0723C0BFBC6A42F33104C5 /* UIColor+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFA.h"; sourceTree = "<group>"; };
+		2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CFAToolKit-Private.xcconfig"; sourceTree = "<group>"; };
+		31A5DFD323912922D74218A2CB22FFF0 /* UILabel+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CFA.m"; sourceTree = "<group>"; };
 		389E11FB93469341115A652CC33FE29A /* Pods-CFAToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52B5BFB2726E14B13FB96E1F0031B121 /* UILabel+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CFA.h"; sourceTree = "<group>"; };
+		45C6357E55156F2B5B77C34711711E49 /* UIView+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CFA.h"; sourceTree = "<group>"; };
 		56DA021BBAE9318C1349FEF4AB21EEFD /* Pods-CFAToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		578470D327F5BF121F05880CEA94AC70 /* Pods-CFAToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFAToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		57C7FF0357F07A424F52FCB01EDAB1C4 /* Pods-CFAToolKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFAToolKit_Example-resources.sh"; sourceTree = "<group>"; };
 		591452879514EAE79044F4B78ADD490B /* libPods-CFAToolKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFAToolKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB3165772EA9C07DDA4D81B77462F48 /* libPods-CFAToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFAToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BBE6539F4F035C90EB9A017561BBFE1 /* libCFAToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCFAToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D603F800EC26D7E8FD18625D7426D9B /* Pods-CFAToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		710564ADD7A92EC594EF1F760DBE4B84 /* CFAToolKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAToolKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CFAToolKit-Private.xcconfig"; sourceTree = "<group>"; };
-		866BF35209AB8386A70BA2BB6E06FF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8814D342E10DA96FCD278D420E9180DF /* UIColor+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFA.m"; sourceTree = "<group>"; };
+		6150AC2E16120B6D46BC4C84C2BC00B0 /* CFAToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFAToolKit-prefix.pch"; sourceTree = "<group>"; };
+		71729373E00DF95145D80353E8F7AC22 /* UIView+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFA.m"; sourceTree = "<group>"; };
+		7880010369C3952978E735961C0F260D /* NSDictionary+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CFA.h"; sourceTree = "<group>"; };
+		7F04D804DAA8C86327E5EA4F97CEA431 /* Service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		88AC679011285B65E51CA9B0B9C4F9D4 /* Pods-CFAToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97B0F7B8AB96B4A27B9B96FF38A49DA7 /* UIColor+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFA.h"; sourceTree = "<group>"; };
+		99297B9A241927247D8FD34A4F207A34 /* CFAToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAToolKit.xcconfig; sourceTree = "<group>"; };
 		9CD7CCADC0FE642A813897B56DB7C251 /* Pods-CFAToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAToolKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B28E1988FCD855966444E5D2CEA25E61 /* NSDictionary+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CFA.m"; sourceTree = "<group>"; };
+		A87172DEA5FF66001EF1B6824C4266D0 /* UIButton+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFA.h"; sourceTree = "<group>"; };
+		AD00603AEB206A71B2A53F2BBEF560B3 /* CFABluetoothHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFABluetoothHelper.h; sourceTree = "<group>"; };
+		B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B1F9CD9571422CC9DFDA1B5A7326FD97 /* UILabel+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CFA.h"; sourceTree = "<group>"; };
 		B47B620A2543F20380D22CC0EA2655B8 /* Pods-CFAToolKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFAToolKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFAC71B121D4EE7C0DB4D05A6E4D5DC7 /* UILabel+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CFA.m"; sourceTree = "<group>"; };
-		C15173DC53FAE48D24CB078A1D944A7C /* CFAToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFAToolKit-dummy.m"; sourceTree = "<group>"; };
-		C49C3DAFEDCDCE530559F54A9C5FF59A /* UIView+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFA.m"; sourceTree = "<group>"; };
+		BD69BE76452C7929D342D46E094D054A /* CFACounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFACounter.h; sourceTree = "<group>"; };
 		C575E8ACDD225F7263862FAECDACA0AD /* Pods-CFAToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7113912C2FC469A0363FF60A71998CC /* UIImage+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFA.h"; sourceTree = "<group>"; };
-		D36B00604DD1B82E81D161D940D61A0B /* CFAToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAToolKit.xcconfig; sourceTree = "<group>"; };
+		D1016488CAA989AE6214F95F37951C91 /* CFAToolKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAToolKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13FEC4678D22A03458380A40559CBFE /* libCFAToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCFAToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4565DA00F037014966CE63BD46CB154 /* CFAToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFAToolKit-dummy.m"; sourceTree = "<group>"; };
+		D6EA5346169FBB5083608A64F0EA4E6F /* Basic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Basic.h; sourceTree = "<group>"; };
+		D9C0D5B3DA37A20F9979EAABBF2A56F2 /* NSDate+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFA.m"; sourceTree = "<group>"; };
 		D9E394CE0110ACC5CDF5EAC6DCD64FA3 /* Pods-CFAToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFAToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCC638E71332A1EB5C692C5ADFF793A9 /* NSString+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CFA.h"; sourceTree = "<group>"; };
-		E655E41E0DA73BCD8455F8F035E6E9F7 /* NSDate+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFA.m"; sourceTree = "<group>"; };
+		DA3945B359618ACCF9EF490A2C4EED60 /* UIColor+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFA.m"; sourceTree = "<group>"; };
+		E43A10D394D774E417C2904B6D644A12 /* CFABluetoothHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFABluetoothHelper.m; sourceTree = "<group>"; };
 		EFA25011F1E532744DC733DA9ED46C2E /* Pods-CFAToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F43F973EC3E4D84D2B578D959E293BC5 /* Basic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Basic.h; sourceTree = "<group>"; };
-		F4F53127F33088D7F11A3D9F562FD2ED /* UIImage+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFA.m"; sourceTree = "<group>"; };
+		F20D56E12BAE4DF9C469B76F75D01402 /* NSString+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CFA.h"; sourceTree = "<group>"; };
 		F9863B7A55C4C7341FC1D0D6A21E3063 /* Pods-CFAToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		FC153E405ECB4ACD3EA4B03DCFDAA5E6 /* UIButton+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFA.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,34 +125,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8468575FF5294FE794C59DADD0CCD5C5 /* Frameworks */ = {
+		C31A657D0563FDBA2724D04447566F76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039F853B9E070DDAAD02C1370922576D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4ED36FABD1E492EA347FCB98D06B50B /* Frameworks */ = {
+		E48D5DA535BF59852D0BC93960E3DF19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB05C7B6614C9C8CE632FB25F9D85CDE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05255AEC23FEF5E4B3BD8BC5A699A344 /* CFAToolKit */ = {
-			isa = PBXGroup;
-			children = (
-				A4EF38BE85544F93337364CC161C8935 /* Pod */,
-				610E0022E0732A054E52AFBA8BBCEC4A /* Support Files */,
-			);
-			name = CFAToolKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1055D513BAA155ACDCAA07E2032D02FF /* Pods-CFAToolKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,30 +155,6 @@
 			);
 			name = "Pods-CFAToolKit_Tests";
 			path = "Target Support Files/Pods-CFAToolKit_Tests";
-			sourceTree = "<group>";
-		};
-		216D5D1B2A5647FED605F33C5ABB48F3 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				F43F973EC3E4D84D2B578D959E293BC5 /* Basic.h */,
-				24463E63B31F00125E2779B9924922F8 /* NSDate+CFA.h */,
-				E655E41E0DA73BCD8455F8F035E6E9F7 /* NSDate+CFA.m */,
-				074F4C17CFA31AAF21A572B2D949EED0 /* NSDictionary+CFA.h */,
-				B28E1988FCD855966444E5D2CEA25E61 /* NSDictionary+CFA.m */,
-				DCC638E71332A1EB5C692C5ADFF793A9 /* NSString+CFA.h */,
-				1BB92ABDFEF34BCEE6EC68B239F70B65 /* NSString+CFA.m */,
-				FC153E405ECB4ACD3EA4B03DCFDAA5E6 /* UIButton+CFA.h */,
-				20AA2E54E4B9F4FCD850F91CAA93501C /* UIButton+CFA.m */,
-				97B0F7B8AB96B4A27B9B96FF38A49DA7 /* UIColor+CFA.h */,
-				8814D342E10DA96FCD278D420E9180DF /* UIColor+CFA.m */,
-				C7113912C2FC469A0363FF60A71998CC /* UIImage+CFA.h */,
-				F4F53127F33088D7F11A3D9F562FD2ED /* UIImage+CFA.m */,
-				52B5BFB2726E14B13FB96E1F0031B121 /* UILabel+CFA.h */,
-				BFAC71B121D4EE7C0DB4D05A6E4D5DC7 /* UILabel+CFA.m */,
-				24DF0D753C963F6E4D3305B368760ADD /* UIView+CFA.h */,
-				C49C3DAFEDCDCE530559F54A9C5FF59A /* UIView+CFA.m */,
-			);
-			path = Basic;
 			sourceTree = "<group>";
 		};
 		3109A5DF764104AC41C04645C632BBBF /* Pods-CFAToolKit_Example */ = {
@@ -195,59 +171,74 @@
 			path = "Target Support Files/Pods-CFAToolKit_Example";
 			sourceTree = "<group>";
 		};
+		3A325FF77EB55CF04B84A52F64BF77BE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A212589991005DD6C2C5A3CBD7CA5C22 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		51152A6C120E8350C3C8835DA425CE06 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				866BF35209AB8386A70BA2BB6E06FF0E /* Foundation.framework */,
+				B16E8D641BC4AF7B797603B07F035D44 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		610E0022E0732A054E52AFBA8BBCEC4A /* Support Files */ = {
+		5F917DB4E4DD9D83515EB16B9A34A973 /* CFAToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				D36B00604DD1B82E81D161D940D61A0B /* CFAToolKit.xcconfig */,
-				82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */,
-				C15173DC53FAE48D24CB078A1D944A7C /* CFAToolKit-dummy.m */,
-				0217377794259A5B36B6794C653E2AFB /* CFAToolKit-prefix.pch */,
+				CF809D730678920E49363A1F56D67CA4 /* Pod */,
+				6E9D773168A2A54E0589FB6AB15B35A5 /* Service */,
+				C7C2BB7A52230D7C13C759ADB95E525C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CFAToolKit";
+			name = CFAToolKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		6A17D35BB1E1AE9EAB4DF72CA2578A9D /* Classes */ = {
+		6E9D773168A2A54E0589FB6AB15B35A5 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				216D5D1B2A5647FED605F33C5ABB48F3 /* Basic */,
+				3A325FF77EB55CF04B84A52F64BF77BE /* Pod */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6DE10A7E3A1E23D08CF83084B6FAAD05 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				05255AEC23FEF5E4B3BD8BC5A699A344 /* CFAToolKit */,
-			);
-			name = "Development Pods";
+			name = Service;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				6DE10A7E3A1E23D08CF83084B6FAAD05 /* Development Pods */,
+				D4DD8FC85642B823C3854E74F6D8C6EC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				F9A042ECDD72C3CFF15A651F141AFCE1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A4EF38BE85544F93337364CC161C8935 /* Pod */ = {
+		A212589991005DD6C2C5A3CBD7CA5C22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6A17D35BB1E1AE9EAB4DF72CA2578A9D /* Classes */,
+				51152A6C120E8350C3C8835DA425CE06 /* Service */,
 			);
-			path = Pod;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3E7149566CEDD34B1D837B170C17A3F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D046F71F9333D73F7EDEF43F09DB9565 /* Basic */,
+				F6600A538D8445C40621EEEDB4C02D87 /* Service */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -258,15 +249,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7C2BB7A52230D7C13C759ADB95E525C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99297B9A241927247D8FD34A4F207A34 /* CFAToolKit.xcconfig */,
+				2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */,
+				D4565DA00F037014966CE63BD46CB154 /* CFAToolKit-dummy.m */,
+				6150AC2E16120B6D46BC4C84C2BC00B0 /* CFAToolKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CFAToolKit";
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				710564ADD7A92EC594EF1F760DBE4B84 /* CFAToolKit.bundle */,
-				5BBE6539F4F035C90EB9A017561BBFE1 /* libCFAToolKit.a */,
+				D1016488CAA989AE6214F95F37951C91 /* CFAToolKit.bundle */,
+				D13FEC4678D22A03458380A40559CBFE /* libCFAToolKit.a */,
 				591452879514EAE79044F4B78ADD490B /* libPods-CFAToolKit_Example.a */,
 				5BB3165772EA9C07DDA4D81B77462F48 /* libPods-CFAToolKit_Tests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF809D730678920E49363A1F56D67CA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7149566CEDD34B1D837B170C17A3F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D046F71F9333D73F7EDEF43F09DB9565 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA5346169FBB5083608A64F0EA4E6F /* Basic.h */,
+				051B76E37BC2F43FB2B6B27097305061 /* NSDate+CFA.h */,
+				D9C0D5B3DA37A20F9979EAABBF2A56F2 /* NSDate+CFA.m */,
+				7880010369C3952978E735961C0F260D /* NSDictionary+CFA.h */,
+				1443A0028AD8CCD16C3413197D355B34 /* NSDictionary+CFA.m */,
+				F20D56E12BAE4DF9C469B76F75D01402 /* NSString+CFA.h */,
+				084C726D4DB62D53B61D7125644EC693 /* NSString+CFA.m */,
+				A87172DEA5FF66001EF1B6824C4266D0 /* UIButton+CFA.h */,
+				21EE56C88419DE9A715CE0CF39EBF77B /* UIButton+CFA.m */,
+				2208FE464A0723C0BFBC6A42F33104C5 /* UIColor+CFA.h */,
+				DA3945B359618ACCF9EF490A2C4EED60 /* UIColor+CFA.m */,
+				09DBE38633DF3EBEA948A3B97B1449CC /* UIImage+CFA.h */,
+				0AEBD58E70B72B60F45BC5532FE04C39 /* UIImage+CFA.m */,
+				B1F9CD9571422CC9DFDA1B5A7326FD97 /* UILabel+CFA.h */,
+				31A5DFD323912922D74218A2CB22FFF0 /* UILabel+CFA.m */,
+				45C6357E55156F2B5B77C34711711E49 /* UIView+CFA.h */,
+				71729373E00DF95145D80353E8F7AC22 /* UIView+CFA.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		D4DD8FC85642B823C3854E74F6D8C6EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F917DB4E4DD9D83515EB16B9A34A973 /* CFAToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F6600A538D8445C40621EEEDB4C02D87 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7F04D804DAA8C86327E5EA4F97CEA431 /* Service.h */,
+				AD00603AEB206A71B2A53F2BBEF560B3 /* CFABluetoothHelper.h */,
+				E43A10D394D774E417C2904B6D644A12 /* CFABluetoothHelper.m */,
+				BD69BE76452C7929D342D46E094D054A /* CFACounter.h */,
+				1A82170FB8616217FB60DC65798EAB97 /* CFACounter.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		F9A042ECDD72C3CFF15A651F141AFCE1 /* Targets Support Files */ = {
@@ -281,32 +336,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A22CA602F38F53C85874B768E20056B6 /* Headers */ = {
+		4AA7BD172B94631694AF0869DE33415A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80AF8211D941D69B871363BAAFDEFCFD /* Basic.h in Headers */,
-				7EDD6E08B42994E2FA25246A63DE83A1 /* NSDate+CFA.h in Headers */,
-				E8243643E1A6CC4040E50A6FE8654C9C /* NSDictionary+CFA.h in Headers */,
-				4B7208E54FC1299ED325BA14866E1738 /* NSString+CFA.h in Headers */,
-				C7846A5C3E5FAB80A614B5F1998FFFC3 /* UIButton+CFA.h in Headers */,
-				23A504A09F766B5CAD5F28B43AEC7FEE /* UIColor+CFA.h in Headers */,
-				9394CE74EE1409587B27B69BD8B2ADE1 /* UIImage+CFA.h in Headers */,
-				3585791B807C4B4BD66E8E0705F405D0 /* UILabel+CFA.h in Headers */,
-				F3488365DBFD8E50BAE5DCF56A5093B5 /* UIView+CFA.h in Headers */,
+				58D7CEDBEA6FB232F971C3AC358431AE /* Basic.h in Headers */,
+				A3C62BCD72F2092A2145A73E0604B031 /* CFABluetoothHelper.h in Headers */,
+				2BD8CE24751A7C4F274A307CD309530B /* CFACounter.h in Headers */,
+				B642E7B3E5B1AB27873697B65B2C8990 /* NSDate+CFA.h in Headers */,
+				19585985D4D53B9406DBA1A850331FD1 /* NSDictionary+CFA.h in Headers */,
+				D701578BB3F8F563E7793AB0E9FD76AA /* NSString+CFA.h in Headers */,
+				1AF10255E1857279D43EB91720B23936 /* Service.h in Headers */,
+				2E2700EA1FD630F8E01406AFE03CDA2B /* UIButton+CFA.h in Headers */,
+				941F1B69EE4AF9371E2488B82039222B /* UIColor+CFA.h in Headers */,
+				21701045308654D2BFC9E7BA0EDE5E76 /* UIImage+CFA.h in Headers */,
+				E8969AEC4A119573908962FD8FC9B24C /* UILabel+CFA.h in Headers */,
+				471A07B4619B69759A5E92FAB3C04406 /* UIView+CFA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1602952B5EC4DD96FB7FBD841336F642 /* CFAToolKit-CFAToolKit */ = {
+		3AC8FE18CE9BCEA3756919517420FE49 /* CFAToolKit-CFAToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE15BDB818D81C664ADA2CDE63DC38D4 /* Build configuration list for PBXNativeTarget "CFAToolKit-CFAToolKit" */;
+			buildConfigurationList = 0B0A8550CA2064B1C262C3815668644D /* Build configuration list for PBXNativeTarget "CFAToolKit-CFAToolKit" */;
 			buildPhases = (
-				A0E1334C157FAB68FFC91190B909267D /* Sources */,
-				E4ED36FABD1E492EA347FCB98D06B50B /* Frameworks */,
-				9983D8F598700EE1061058CCB5D546F5 /* Resources */,
+				FC5BB7450D5308557A9C8BCE4BCA22EB /* Sources */,
+				C31A657D0563FDBA2724D04447566F76 /* Frameworks */,
+				50948709A91CA415D3AD36B345BB2A55 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -314,26 +372,8 @@
 			);
 			name = "CFAToolKit-CFAToolKit";
 			productName = "CFAToolKit-CFAToolKit";
-			productReference = 710564ADD7A92EC594EF1F760DBE4B84 /* CFAToolKit.bundle */;
+			productReference = D1016488CAA989AE6214F95F37951C91 /* CFAToolKit.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		28BF3B9A292453D10FF0ED5A76C46D45 /* CFAToolKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85D7ADCC98A7BC5B16E48B9E654A9BA7 /* Build configuration list for PBXNativeTarget "CFAToolKit" */;
-			buildPhases = (
-				811AA3E4604BE818906470F4B31EF5CA /* Sources */,
-				8468575FF5294FE794C59DADD0CCD5C5 /* Frameworks */,
-				A22CA602F38F53C85874B768E20056B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F89E1D497632D34C5DDBF11C65B52A5D /* PBXTargetDependency */,
-			);
-			name = CFAToolKit;
-			productName = CFAToolKit;
-			productReference = 5BBE6539F4F035C90EB9A017561BBFE1 /* libCFAToolKit.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 		A0A31AF0950775DD390DC3F034204481 /* Pods-CFAToolKit_Example */ = {
 			isa = PBXNativeTarget;
@@ -345,7 +385,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BA87206DC46B3765AF68D211111E200B /* PBXTargetDependency */,
+				B5D3F9D0A3E1E70C6D35B245FF3E83D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CFAToolKit_Example";
 			productName = "Pods-CFAToolKit_Example";
@@ -362,11 +402,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				5E86CCFBE73841168E0748127DEE9C86 /* PBXTargetDependency */,
+				68DBF1EF8555713EFBDDA7A959B5D318 /* PBXTargetDependency */,
 			);
 			name = "Pods-CFAToolKit_Tests";
 			productName = "Pods-CFAToolKit_Tests";
 			productReference = 5BB3165772EA9C07DDA4D81B77462F48 /* libPods-CFAToolKit_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE6E9C8DB867D750441AC617B44C0BE9 /* CFAToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A325786960ACAF6136D30D18827AB40 /* Build configuration list for PBXNativeTarget "CFAToolKit" */;
+			buildPhases = (
+				F3C5A58F3AD6E73E9BC4E0432B2A2968 /* Sources */,
+				E48D5DA535BF59852D0BC93960E3DF19 /* Frameworks */,
+				4AA7BD172B94631694AF0869DE33415A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48043FAFBA66359DC9008F252C3A02D6 /* PBXTargetDependency */,
+			);
+			name = CFAToolKit;
+			productName = CFAToolKit;
+			productReference = D13FEC4678D22A03458380A40559CBFE /* libCFAToolKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -390,8 +448,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28BF3B9A292453D10FF0ED5A76C46D45 /* CFAToolKit */,
-				1602952B5EC4DD96FB7FBD841336F642 /* CFAToolKit-CFAToolKit */,
+				AE6E9C8DB867D750441AC617B44C0BE9 /* CFAToolKit */,
+				3AC8FE18CE9BCEA3756919517420FE49 /* CFAToolKit-CFAToolKit */,
 				A0A31AF0950775DD390DC3F034204481 /* Pods-CFAToolKit_Example */,
 				A82449DBDF342B179E8CD05028254E90 /* Pods-CFAToolKit_Tests */,
 			);
@@ -399,7 +457,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9983D8F598700EE1061058CCB5D546F5 /* Resources */ = {
+		50948709A91CA415D3AD36B345BB2A55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,34 +467,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		811AA3E4604BE818906470F4B31EF5CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60D30DE5CB4AB51ABD55AD1C0CEA1DB5 /* CFAToolKit-dummy.m in Sources */,
-				FCA1DDCBD62244D3E367B106D17B84EC /* NSDate+CFA.m in Sources */,
-				B85FA1BA11EBE27C63376EA8930DF266 /* NSDictionary+CFA.m in Sources */,
-				51ECBFEC85BA8E6EE5C89DF92852450D /* NSString+CFA.m in Sources */,
-				DBA1301560600EC7F33300AC3AC3FA7E /* UIButton+CFA.m in Sources */,
-				553FE2851E393DCAABAA66AD48083ED0 /* UIColor+CFA.m in Sources */,
-				5AEBDAC3B16BE7BC5FDFD9F54219BDEE /* UIImage+CFA.m in Sources */,
-				C35B5A959EA9D622D5C09940A66F31EC /* UILabel+CFA.m in Sources */,
-				219BD3E11CC9EA35F0616692B511C98A /* UIView+CFA.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DEFCBA32EE30B3D3636A97A7FEB45DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC8E8D331BC5433E7E30541B5E59DE23 /* Pods-CFAToolKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0E1334C157FAB68FFC91190B909267D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,26 +483,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3C5A58F3AD6E73E9BC4E0432B2A2968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6DEB3CA8CA08144006624B8B2822E2 /* CFABluetoothHelper.m in Sources */,
+				77D4BC87ED4B46127BB255B12CE723A7 /* CFACounter.m in Sources */,
+				B8D81B68D3EE939377F8A645F269DEDC /* CFAToolKit-dummy.m in Sources */,
+				B2B0977AC88C58FBAB2E21DAB264C7A8 /* NSDate+CFA.m in Sources */,
+				A2D32B82F3965B0CF2D0F6F8E12C70A0 /* NSDictionary+CFA.m in Sources */,
+				02C4648C96F65D17F65F49F7557628CA /* NSString+CFA.m in Sources */,
+				219367571F1FA19642373B4810F09331 /* UIButton+CFA.m in Sources */,
+				23BB22E0F8B2BE1D7E4E99C4749EA9CA /* UIColor+CFA.m in Sources */,
+				1F5DBE2EAE0D27F34883FB7E6A491FC9 /* UIImage+CFA.m in Sources */,
+				1DED6AEF629EAEA3DBEF5ADE210F5375 /* UILabel+CFA.m in Sources */,
+				E8EEBE46D822D623E7AFBC458DBB6B15 /* UIView+CFA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5BB7450D5308557A9C8BCE4BCA22EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E86CCFBE73841168E0748127DEE9C86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CFAToolKit;
-			target = 28BF3B9A292453D10FF0ED5A76C46D45 /* CFAToolKit */;
-			targetProxy = 07AF808A8BA0610F79CF4C89980D8155 /* PBXContainerItemProxy */;
-		};
-		BA87206DC46B3765AF68D211111E200B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CFAToolKit;
-			target = 28BF3B9A292453D10FF0ED5A76C46D45 /* CFAToolKit */;
-			targetProxy = 21C735057EC5D519F0B3F8E423888BAC /* PBXContainerItemProxy */;
-		};
-		F89E1D497632D34C5DDBF11C65B52A5D /* PBXTargetDependency */ = {
+		48043FAFBA66359DC9008F252C3A02D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CFAToolKit-CFAToolKit";
-			target = 1602952B5EC4DD96FB7FBD841336F642 /* CFAToolKit-CFAToolKit */;
-			targetProxy = BB70A584A27671F815D731819523159D /* PBXContainerItemProxy */;
+			target = 3AC8FE18CE9BCEA3756919517420FE49 /* CFAToolKit-CFAToolKit */;
+			targetProxy = DE270547B760D149FF42CAD6A8F019AF /* PBXContainerItemProxy */;
+		};
+		68DBF1EF8555713EFBDDA7A959B5D318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFAToolKit;
+			target = AE6E9C8DB867D750441AC617B44C0BE9 /* CFAToolKit */;
+			targetProxy = 787D8F9532BADD2FAD8A834AAFC5B268 /* PBXContainerItemProxy */;
+		};
+		B5D3F9D0A3E1E70C6D35B245FF3E83D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFAToolKit;
+			target = AE6E9C8DB867D750441AC617B44C0BE9 /* CFAToolKit */;
+			targetProxy = 83CC7CE67C33D5CF7C4783AD8AD75845 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -561,21 +621,9 @@
 			};
 			name = Debug;
 		};
-		5DF10DD0064D68FA454B15C1D2D9CC02 /* Release */ = {
+		345EF96BBF1D64320DEF589FA5F8373F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CFAToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6B869F7EDBB17A0A5DD935E2ED26B269 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */;
+			baseConfigurationReference = 2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CFAToolKit/CFAToolKit-prefix.pch";
@@ -588,6 +636,18 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		43256024612F066EFBB36EACF48F47E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CFAToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		7406CEC36571A5AA9A561BA31208FBD5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -621,9 +681,25 @@
 			};
 			name = Debug;
 		};
-		CF5A7115FDE8B9ABFE21E21A92B6B606 /* Debug */ = {
+		A33D7D93C210EE2CF2E63E6CDC1C631A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */;
+			baseConfigurationReference = 2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CFAToolKit/CFAToolKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFE93BB7B2D417E3E96194B947A31E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0E4C67C700AC9EE81205D924D8E05F /* CFAToolKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = CFAToolKit;
@@ -631,7 +707,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		DD5EBBC68610151FE08F61F0F4659BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -649,25 +725,18 @@
 			};
 			name = Release;
 		};
-		E33216F09C65DB3D6D02699BD6337D17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A9456210C8845262BF42FE5A9A9D60 /* CFAToolKit-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CFAToolKit/CFAToolKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B0A8550CA2064B1C262C3815668644D /* Build configuration list for PBXNativeTarget "CFAToolKit-CFAToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43256024612F066EFBB36EACF48F47E5 /* Debug */,
+				CFE93BB7B2D417E3E96194B947A31E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -677,11 +746,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85D7ADCC98A7BC5B16E48B9E654A9BA7 /* Build configuration list for PBXNativeTarget "CFAToolKit" */ = {
+		9A325786960ACAF6136D30D18827AB40 /* Build configuration list for PBXNativeTarget "CFAToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E33216F09C65DB3D6D02699BD6337D17 /* Debug */,
-				6B869F7EDBB17A0A5DD935E2ED26B269 /* Release */,
+				A33D7D93C210EE2CF2E63E6CDC1C631A /* Debug */,
+				345EF96BBF1D64320DEF589FA5F8373F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,15 +769,6 @@
 			buildConfigurations = (
 				2265362AEAD09ECDDF4B8E9B6EF32677 /* Debug */,
 				DD5EBBC68610151FE08F61F0F4659BD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE15BDB818D81C664ADA2CDE63DC38D4 /* Build configuration list for PBXNativeTarget "CFAToolKit-CFAToolKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF5A7115FDE8B9ABFE21E21A92B6B606 /* Debug */,
-				5DF10DD0064D68FA454B15C1D2D9CC02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

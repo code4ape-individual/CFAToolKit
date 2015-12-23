@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BA58ECDE0FE97B9857CDB2C"
+               BlueprintIdentifier = "631E52DC1A9B7FE04F612A06"
                BuildableName = "libCFAToolKit.a"
                BlueprintName = "CFAToolKit"
                ReferencedContainer = "container:Pods.xcodeproj">

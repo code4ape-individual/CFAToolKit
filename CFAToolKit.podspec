@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 
-aldskfja;ldskfj;aldksjf;alksdjf;alkdsjf;alksdjf;alskjdf
+    个人工具集，目前包括Baisc、service、CustomUI三部分。
                        DESC
 
   s.homepage         = "https://github.com/code4ape-individual/CFAToolKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "dengjunjie" => "dengjunjie@yaochufa.com" }
+  s.author           = { "code4ape" => "junjie_deng@qq.com" }
   s.source           = { :git => "https://github.com/code4ape-individual/CFAToolKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,6 +38,14 @@ aldskfja;ldskfj;aldksjf;alksdjf;alkdsjf;alksdjf;alskjdf
 
   s.subspec 'Basic' do |sp|
     sp.source_files = 'Pod/Classes/Baisc'
+  end
+
+  s.subspec 'Service' do |sp|
+  sp.source_files = 'Pod/Classes/Service'
+  end
+
+  s.subspec 'CustomUI' do |sp|
+  sp.source_files = 'Pod/Classes/CustomUI'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

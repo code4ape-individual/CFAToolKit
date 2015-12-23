@@ -9,6 +9,7 @@
 #import "CFAViewController.h"
 
 #import <CFAToolKit/Basic.h>
+#import <CFAToolKit/Service.h>
 
 @interface CFAViewController ()
 
@@ -20,14 +21,37 @@
 {
     [super viewDidLoad];
 
-    NSLog(@"%ld",[[NSDate date] getDay]);
+    [self testDateCategory];
+    
+    [self testCounter];
     
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark - Basic测试
+- (void)testDateCategory
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"-----NSDate+CFA-----");
+    NSLog(@"%ld",[[NSDate date] getDay]);
+}
+
+#pragma mark - Service测试
+- (void)testCounter
+{
+    NSLog(@"-----CFACounter-----");
+    
+    CFACounter *counter = [[CFACounter alloc] initWithDurationWithMinute:1 block:^(NSInteger secondsLeft) {
+        NSLog(@"----%ld",secondsLeft);
+    }];
+    
+    [counter start];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [counter pause];
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [counter start];
+    });
 }
 
 @end

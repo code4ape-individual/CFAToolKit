@@ -26,6 +26,14 @@
     {
       "name": "Basic",
       "source_files": "Pod/Classes/Baisc"
+    },
+    {
+      "name": "Service",
+      "source_files": "Pod/Classes/Service"
+    },
+    {
+      "name": "CustomUI",
+      "source_files": "Pod/Classes/CustomUI"
     }
   ]
 }
