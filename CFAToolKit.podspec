@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CFAToolKit"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Personal kit."
 
   s.description      = <<-DESC
@@ -27,22 +27,22 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'CFAToolKit.h'
   s.resource_bundles = {
     'CFAToolKit' => ['Pod/Assets/*.png']
   }
 
   s.subspec 'Basic' do |sp|
-    sp.source_files = 'Pod/Classes/Basic/**/*'
+    sp.source_files = 'CFAToolKit-Basic'
   end
 
   s.subspec 'Service' do |sp|
-    sp.source_files = 'Pod/Classes/Service/**/*'
+    sp.source_files = 'CFAToolKit-Service'
     sp.dependency 'CFAToolKit/Basic'
   end
 
   s.subspec 'CustomUI' do |sp|
-    sp.source_files = 'Pod/Classes/CustomUI/**/*'
+    sp.source_files = 'CFAToolKit-CustomUI'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

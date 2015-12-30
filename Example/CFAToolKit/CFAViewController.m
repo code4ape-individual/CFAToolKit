@@ -8,8 +8,8 @@
 
 #import "CFAViewController.h"
 
-#import <CFAToolKit/Basic.h>
-#import <CFAToolKit/Service.h>
+#import <CFAToolKit/CFABasic.h>
+#import <CFAToolKit/CFAService.h>
 
 @interface CFAViewController ()
 
