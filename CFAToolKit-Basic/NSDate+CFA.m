@@ -10,8 +10,10 @@
 
 @implementation NSDate (CFA)
 
+
+#pragma mark - 获取日期元素
 //获取日
-- (NSUInteger)getDay
+- (NSInteger)getDay
 {
     
     NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -23,7 +25,7 @@
 }
 
 //获取月
-- (NSUInteger)getMonth
+- (NSInteger)getMonth
 {
     
     NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -35,7 +37,7 @@
 }
 
 //获取年
-- (NSUInteger)getYear
+- (NSInteger)getYear
 {
     
     NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -75,7 +77,7 @@
 }
 
 // 星期几
-- (NSUInteger)getWeekday
+- (NSInteger)getWeekday
 {
     
     NSCalendar *calendar = [NSCalendar currentCalendar];
@@ -86,7 +88,7 @@
 }
 
 // 在当月的第几个星期
-- (NSUInteger)weekOfMonth
+- (NSInteger)weekOfMonth
 {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
@@ -95,7 +97,7 @@
     return [weekdayComponents weekOfMonth];
 }
 
--(NSUInteger)weekOfYear
+-(NSInteger)weekOfYear
 {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     
@@ -121,6 +123,35 @@
     return weekOfYear + weekOffset;
 }
 
+#pragma mark - 获取延时后的日期
+// 返回day天后的日期，负数为day天前的日期
+- (NSDate *)dateAfterYear:(NSInteger)year
+{
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *componentsToAdd = [[NSDateComponents alloc] init];
+    [componentsToAdd setYear:year];
+    NSDate *dateAfterYear = [calendar dateByAddingComponents:componentsToAdd toDate:self options:0];
+    return dateAfterYear;
+}
+
+//month个月后的日期
+- (NSDate *)dateAfterMonth:(NSInteger)month
+{
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *componentsToAdd = [[NSDateComponents alloc] init];
+    [componentsToAdd setMonth:month];
+    NSDate *dateAfterMonth = [calendar dateByAddingComponents:componentsToAdd toDate:self options:0];
+    return dateAfterMonth;
+}
+
+- (NSDate *)dateAfterDay:(NSInteger)day
+{
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *componentsToAdd = [[NSDateComponents alloc] init];
+    [componentsToAdd setDay:day];
+    NSDate *dateAfterDay = [calendar dateByAddingComponents:componentsToAdd toDate:self options:0];
+    return dateAfterDay;
+}
 
 - (NSDate *)dateAfterMinutes:(NSInteger)minutes
 {
@@ -131,40 +162,6 @@
     return dateAfterMinute;
 }
 
-// 返回day天后的日期，负数为day天前的日期
-- (NSDate *)dateAfterDay:(NSInteger)day
-{
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    
-    // Get the weekday component of the current date
-    
-    // NSDateComponents *weekdayComponents = [calendar components:NSWeekdayCalendarUnit fromDate:self];
-    
-    NSDateComponents *componentsToAdd = [[NSDateComponents alloc] init];
-    
-    // to get the end of week for a particular date, add (7 - weekday) days
-    
-    [componentsToAdd setDay:day];
-    
-    NSDate *dateAfterDay = [calendar dateByAddingComponents:componentsToAdd toDate:self options:0];
-    
-    return dateAfterDay;
-}
-
-//month个月后的日期
-- (NSDate *)dateafterMonth:(NSInteger)month
-{
-    
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    
-    NSDateComponents *componentsToAdd = [[NSDateComponents alloc] init];
-    
-    [componentsToAdd setMonth:month];
-    
-    NSDate *dateAfterMonth = [calendar dateByAddingComponents:componentsToAdd toDate:self options:0];
-    
-    return dateAfterMonth;
-}
 
 // 当月的第一天
 - (NSDate *)firstDateInThisMonth
@@ -182,12 +179,12 @@
 // 当月最后一天
 - (NSDate *)endDateInThisMonth
 {
-    return [[[self firstDateInThisMonth] dateafterMonth:1] dateAfterDay:-1];
+    return [[[self firstDateInThisMonth] dateAfterMonth:1] dateAfterDay:-1];
 }
 
 
 // 当月有几个星期
--(NSUInteger)weeksInThisMonth
+-(NSInteger)weeksInThisMonth
 {
     return [[self endDateInThisMonth] weekOfYear] - [[self firstDateInThisMonth] weekOfYear] + 1;
 }
