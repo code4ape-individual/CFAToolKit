@@ -1,13 +1,13 @@
 //
-//  Basic.h
+//  CFABasic.h
 //  Pods
 //
-//  Created by JunjieDeng on 15/12/23.
+//  Created by JunjieDeng on 15/12/30.
 //
 //
 
-#ifndef Basic_h
-#define Basic_h
+#ifndef CFABasic_h
+#define CFABasic_h
 
 #import "NSDate+CFA.h"
 #import "NSDictionary+CFA.h"
@@ -18,4 +18,4 @@
 #import "UILabel+CFA.h"
 #import "UIView+CFA.h"
 
-#endif /* Basic_h */
+#endif /* CFABasic_h */

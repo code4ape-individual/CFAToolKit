@@ -12,16 +12,16 @@
 		222148E14E840F93A030F2A701EFE0DD /* Pods-CFAToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9863B7A55C4C7341FC1D0D6A21E3063 /* Pods-CFAToolKit_Tests-dummy.m */; };
 		4DA14E4BC369AB0DD95C98DB3E2BE5F5 /* CFAToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CDFFFAA7F39FAAEFCAB12A5885A520 /* CFAToolKit-dummy.m */; };
 		56D4EF830812DD372B0EB25CC676010D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8091BA22F271088AC341261C16DB687 /* Foundation.framework */; };
-		9EF04C101C30E29300694132 /* NSDate+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C011C30E29300694132 /* NSDate+CFA.m */; };
-		9EF04C111C30E29300694132 /* NSDictionary+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C031C30E29300694132 /* NSDictionary+CFA.m */; };
-		9EF04C121C30E29300694132 /* NSString+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C051C30E29300694132 /* NSString+CFA.m */; };
-		9EF04C131C30E29300694132 /* UIButton+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C071C30E29300694132 /* UIButton+CFA.m */; };
-		9EF04C141C30E29300694132 /* UIColor+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C091C30E29300694132 /* UIColor+CFA.m */; };
-		9EF04C151C30E29300694132 /* UIImage+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C0B1C30E29300694132 /* UIImage+CFA.m */; };
-		9EF04C161C30E29300694132 /* UILabel+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C0D1C30E29300694132 /* UILabel+CFA.m */; };
-		9EF04C171C30E29300694132 /* UIView+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C0F1C30E29300694132 /* UIView+CFA.m */; };
-		9EF04C201C30E29B00694132 /* CFABluetoothHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C1C1C30E29B00694132 /* CFABluetoothHelper.m */; };
-		9EF04C211C30E29B00694132 /* CFACounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF04C1E1C30E29B00694132 /* CFACounter.m */; };
+		9EF6B75C1C33BDEA00299A62 /* NSDate+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7451C33BDEA00299A62 /* NSDate+CFA.m */; };
+		9EF6B75D1C33BDEA00299A62 /* NSDictionary+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7471C33BDEA00299A62 /* NSDictionary+CFA.m */; };
+		9EF6B75E1C33BDEA00299A62 /* NSString+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7491C33BDEA00299A62 /* NSString+CFA.m */; };
+		9EF6B75F1C33BDEA00299A62 /* UIButton+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B74B1C33BDEA00299A62 /* UIButton+CFA.m */; };
+		9EF6B7601C33BDEA00299A62 /* UIColor+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B74D1C33BDEA00299A62 /* UIColor+CFA.m */; };
+		9EF6B7611C33BDEA00299A62 /* UIImage+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B74F1C33BDEA00299A62 /* UIImage+CFA.m */; };
+		9EF6B7621C33BDEA00299A62 /* UILabel+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7511C33BDEA00299A62 /* UILabel+CFA.m */; };
+		9EF6B7631C33BDEA00299A62 /* UIView+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7531C33BDEA00299A62 /* UIView+CFA.m */; };
+		9EF6B7641C33BDEA00299A62 /* CFABluetoothHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B7581C33BDEA00299A62 /* CFABluetoothHelper.m */; };
+		9EF6B7651C33BDEA00299A62 /* CFACounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6B75A1C33BDEA00299A62 /* CFACounter.m */; };
 		DC8E8D331BC5433E7E30541B5E59DE23 /* Pods-CFAToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7CCADC0FE642A813897B56DB7C251 /* Pods-CFAToolKit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -62,29 +62,30 @@
 		5D603F800EC26D7E8FD18625D7426D9B /* Pods-CFAToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		88AC679011285B65E51CA9B0B9C4F9D4 /* Pods-CFAToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9CD7CCADC0FE642A813897B56DB7C251 /* Pods-CFAToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAToolKit_Example-dummy.m"; sourceTree = "<group>"; };
-		9EF04BFF1C30E29300694132 /* Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basic.h; sourceTree = "<group>"; };
-		9EF04C001C30E29300694132 /* NSDate+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFA.h"; sourceTree = "<group>"; };
-		9EF04C011C30E29300694132 /* NSDate+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFA.m"; sourceTree = "<group>"; };
-		9EF04C021C30E29300694132 /* NSDictionary+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CFA.h"; sourceTree = "<group>"; };
-		9EF04C031C30E29300694132 /* NSDictionary+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CFA.m"; sourceTree = "<group>"; };
-		9EF04C041C30E29300694132 /* NSString+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFA.h"; sourceTree = "<group>"; };
-		9EF04C051C30E29300694132 /* NSString+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFA.m"; sourceTree = "<group>"; };
-		9EF04C061C30E29300694132 /* UIButton+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFA.h"; sourceTree = "<group>"; };
-		9EF04C071C30E29300694132 /* UIButton+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CFA.m"; sourceTree = "<group>"; };
-		9EF04C081C30E29300694132 /* UIColor+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFA.h"; sourceTree = "<group>"; };
-		9EF04C091C30E29300694132 /* UIColor+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFA.m"; sourceTree = "<group>"; };
-		9EF04C0A1C30E29300694132 /* UIImage+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFA.h"; sourceTree = "<group>"; };
-		9EF04C0B1C30E29300694132 /* UIImage+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFA.m"; sourceTree = "<group>"; };
-		9EF04C0C1C30E29300694132 /* UILabel+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CFA.h"; sourceTree = "<group>"; };
-		9EF04C0D1C30E29300694132 /* UILabel+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CFA.m"; sourceTree = "<group>"; };
-		9EF04C0E1C30E29300694132 /* UIView+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFA.h"; sourceTree = "<group>"; };
-		9EF04C0F1C30E29300694132 /* UIView+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFA.m"; sourceTree = "<group>"; };
-		9EF04C191C30E29B00694132 /* CustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUI.h; sourceTree = "<group>"; };
-		9EF04C1B1C30E29B00694132 /* CFABluetoothHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFABluetoothHelper.h; sourceTree = "<group>"; };
-		9EF04C1C1C30E29B00694132 /* CFABluetoothHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFABluetoothHelper.m; sourceTree = "<group>"; };
-		9EF04C1D1C30E29B00694132 /* CFACounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFACounter.h; sourceTree = "<group>"; };
-		9EF04C1E1C30E29B00694132 /* CFACounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFACounter.m; sourceTree = "<group>"; };
-		9EF04C1F1C30E29B00694132 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		9EF6B7441C33BDEA00299A62 /* NSDate+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFA.h"; sourceTree = "<group>"; };
+		9EF6B7451C33BDEA00299A62 /* NSDate+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFA.m"; sourceTree = "<group>"; };
+		9EF6B7461C33BDEA00299A62 /* NSDictionary+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CFA.h"; sourceTree = "<group>"; };
+		9EF6B7471C33BDEA00299A62 /* NSDictionary+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CFA.m"; sourceTree = "<group>"; };
+		9EF6B7481C33BDEA00299A62 /* NSString+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFA.h"; sourceTree = "<group>"; };
+		9EF6B7491C33BDEA00299A62 /* NSString+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFA.m"; sourceTree = "<group>"; };
+		9EF6B74A1C33BDEA00299A62 /* UIButton+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFA.h"; sourceTree = "<group>"; };
+		9EF6B74B1C33BDEA00299A62 /* UIButton+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CFA.m"; sourceTree = "<group>"; };
+		9EF6B74C1C33BDEA00299A62 /* UIColor+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFA.h"; sourceTree = "<group>"; };
+		9EF6B74D1C33BDEA00299A62 /* UIColor+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFA.m"; sourceTree = "<group>"; };
+		9EF6B74E1C33BDEA00299A62 /* UIImage+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFA.h"; sourceTree = "<group>"; };
+		9EF6B74F1C33BDEA00299A62 /* UIImage+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFA.m"; sourceTree = "<group>"; };
+		9EF6B7501C33BDEA00299A62 /* UILabel+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CFA.h"; sourceTree = "<group>"; };
+		9EF6B7511C33BDEA00299A62 /* UILabel+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CFA.m"; sourceTree = "<group>"; };
+		9EF6B7521C33BDEA00299A62 /* UIView+CFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFA.h"; sourceTree = "<group>"; };
+		9EF6B7531C33BDEA00299A62 /* UIView+CFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFA.m"; sourceTree = "<group>"; };
+		9EF6B7571C33BDEA00299A62 /* CFABluetoothHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFABluetoothHelper.h; sourceTree = "<group>"; };
+		9EF6B7581C33BDEA00299A62 /* CFABluetoothHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFABluetoothHelper.m; sourceTree = "<group>"; };
+		9EF6B7591C33BDEA00299A62 /* CFACounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFACounter.h; sourceTree = "<group>"; };
+		9EF6B75A1C33BDEA00299A62 /* CFACounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFACounter.m; sourceTree = "<group>"; };
+		9EF6B7661C33BDFE00299A62 /* CFAToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAToolKit.h; sourceTree = "<group>"; };
+		9EF6B7671C33BE3B00299A62 /* CFABasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFABasic.h; sourceTree = "<group>"; };
+		9EF6B7691C33BE6700299A62 /* CFACustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFACustomUI.h; sourceTree = "<group>"; };
+		9EF6B76A1C33BE7600299A62 /* CFAService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAService.h; sourceTree = "<group>"; };
 		B47B620A2543F20380D22CC0EA2655B8 /* Pods-CFAToolKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFAToolKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0CDFFFAA7F39FAAEFCAB12A5885A520 /* CFAToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFAToolKit-dummy.m"; sourceTree = "<group>"; };
@@ -135,7 +136,10 @@
 		05255AEC23FEF5E4B3BD8BC5A699A344 /* CFAToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				3A054E365EB6F85489A13F6AEB7FB631 /* Pod */,
+				9EF6B7661C33BDFE00299A62 /* CFAToolKit.h */,
+				9EF6B7421C33BDEA00299A62 /* CFAToolKit-Basic */,
+				9EF6B7541C33BDEA00299A62 /* CFAToolKit-CustomUI */,
+				9EF6B7561C33BDEA00299A62 /* CFAToolKit-Service */,
 				610E0022E0732A054E52AFBA8BBCEC4A /* Support Files */,
 			);
 			name = CFAToolKit;
@@ -168,14 +172,6 @@
 			);
 			name = "Pods-CFAToolKit_Example";
 			path = "Target Support Files/Pods-CFAToolKit_Example";
-			sourceTree = "<group>";
-		};
-		3A054E365EB6F85489A13F6AEB7FB631 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D2680785F8894DB7A5C21DCA53021F0E /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
@@ -217,48 +213,48 @@
 			);
 			sourceTree = "<group>";
 		};
-		9EF04BFE1C30E29300694132 /* Basic */ = {
+		9EF6B7421C33BDEA00299A62 /* CFAToolKit-Basic */ = {
 			isa = PBXGroup;
 			children = (
-				9EF04BFF1C30E29300694132 /* Basic.h */,
-				9EF04C001C30E29300694132 /* NSDate+CFA.h */,
-				9EF04C011C30E29300694132 /* NSDate+CFA.m */,
-				9EF04C021C30E29300694132 /* NSDictionary+CFA.h */,
-				9EF04C031C30E29300694132 /* NSDictionary+CFA.m */,
-				9EF04C041C30E29300694132 /* NSString+CFA.h */,
-				9EF04C051C30E29300694132 /* NSString+CFA.m */,
-				9EF04C061C30E29300694132 /* UIButton+CFA.h */,
-				9EF04C071C30E29300694132 /* UIButton+CFA.m */,
-				9EF04C081C30E29300694132 /* UIColor+CFA.h */,
-				9EF04C091C30E29300694132 /* UIColor+CFA.m */,
-				9EF04C0A1C30E29300694132 /* UIImage+CFA.h */,
-				9EF04C0B1C30E29300694132 /* UIImage+CFA.m */,
-				9EF04C0C1C30E29300694132 /* UILabel+CFA.h */,
-				9EF04C0D1C30E29300694132 /* UILabel+CFA.m */,
-				9EF04C0E1C30E29300694132 /* UIView+CFA.h */,
-				9EF04C0F1C30E29300694132 /* UIView+CFA.m */,
+				9EF6B7671C33BE3B00299A62 /* CFABasic.h */,
+				9EF6B7441C33BDEA00299A62 /* NSDate+CFA.h */,
+				9EF6B7451C33BDEA00299A62 /* NSDate+CFA.m */,
+				9EF6B7461C33BDEA00299A62 /* NSDictionary+CFA.h */,
+				9EF6B7471C33BDEA00299A62 /* NSDictionary+CFA.m */,
+				9EF6B7481C33BDEA00299A62 /* NSString+CFA.h */,
+				9EF6B7491C33BDEA00299A62 /* NSString+CFA.m */,
+				9EF6B74A1C33BDEA00299A62 /* UIButton+CFA.h */,
+				9EF6B74B1C33BDEA00299A62 /* UIButton+CFA.m */,
+				9EF6B74C1C33BDEA00299A62 /* UIColor+CFA.h */,
+				9EF6B74D1C33BDEA00299A62 /* UIColor+CFA.m */,
+				9EF6B74E1C33BDEA00299A62 /* UIImage+CFA.h */,
+				9EF6B74F1C33BDEA00299A62 /* UIImage+CFA.m */,
+				9EF6B7501C33BDEA00299A62 /* UILabel+CFA.h */,
+				9EF6B7511C33BDEA00299A62 /* UILabel+CFA.m */,
+				9EF6B7521C33BDEA00299A62 /* UIView+CFA.h */,
+				9EF6B7531C33BDEA00299A62 /* UIView+CFA.m */,
 			);
-			path = Basic;
+			path = "CFAToolKit-Basic";
 			sourceTree = "<group>";
 		};
-		9EF04C181C30E29B00694132 /* CustomUI */ = {
+		9EF6B7541C33BDEA00299A62 /* CFAToolKit-CustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				9EF04C191C30E29B00694132 /* CustomUI.h */,
+				9EF6B7691C33BE6700299A62 /* CFACustomUI.h */,
 			);
-			path = CustomUI;
+			path = "CFAToolKit-CustomUI";
 			sourceTree = "<group>";
 		};
-		9EF04C1A1C30E29B00694132 /* Service */ = {
+		9EF6B7561C33BDEA00299A62 /* CFAToolKit-Service */ = {
 			isa = PBXGroup;
 			children = (
-				9EF04C1B1C30E29B00694132 /* CFABluetoothHelper.h */,
-				9EF04C1C1C30E29B00694132 /* CFABluetoothHelper.m */,
-				9EF04C1D1C30E29B00694132 /* CFACounter.h */,
-				9EF04C1E1C30E29B00694132 /* CFACounter.m */,
-				9EF04C1F1C30E29B00694132 /* Service.h */,
+				9EF6B7571C33BDEA00299A62 /* CFABluetoothHelper.h */,
+				9EF6B7581C33BDEA00299A62 /* CFABluetoothHelper.m */,
+				9EF6B7591C33BDEA00299A62 /* CFACounter.h */,
+				9EF6B75A1C33BDEA00299A62 /* CFACounter.m */,
+				9EF6B76A1C33BE7600299A62 /* CFAService.h */,
 			);
-			path = Service;
+			path = "CFAToolKit-Service";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -278,16 +274,6 @@
 				5BB3165772EA9C07DDA4D81B77462F48 /* libPods-CFAToolKit_Tests.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D2680785F8894DB7A5C21DCA53021F0E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9EF04BFE1C30E29300694132 /* Basic */,
-				9EF04C1A1C30E29B00694132 /* Service */,
-				9EF04C181C30E29B00694132 /* CustomUI */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		F9A042ECDD72C3CFF15A651F141AFCE1 /* Targets Support Files */ = {
@@ -425,16 +411,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF04C151C30E29300694132 /* UIImage+CFA.m in Sources */,
-				9EF04C131C30E29300694132 /* UIButton+CFA.m in Sources */,
-				9EF04C121C30E29300694132 /* NSString+CFA.m in Sources */,
-				9EF04C161C30E29300694132 /* UILabel+CFA.m in Sources */,
-				9EF04C141C30E29300694132 /* UIColor+CFA.m in Sources */,
-				9EF04C171C30E29300694132 /* UIView+CFA.m in Sources */,
-				9EF04C101C30E29300694132 /* NSDate+CFA.m in Sources */,
-				9EF04C201C30E29B00694132 /* CFABluetoothHelper.m in Sources */,
-				9EF04C111C30E29300694132 /* NSDictionary+CFA.m in Sources */,
-				9EF04C211C30E29B00694132 /* CFACounter.m in Sources */,
+				9EF6B7611C33BDEA00299A62 /* UIImage+CFA.m in Sources */,
+				9EF6B75F1C33BDEA00299A62 /* UIButton+CFA.m in Sources */,
+				9EF6B75E1C33BDEA00299A62 /* NSString+CFA.m in Sources */,
+				9EF6B7621C33BDEA00299A62 /* UILabel+CFA.m in Sources */,
+				9EF6B7601C33BDEA00299A62 /* UIColor+CFA.m in Sources */,
+				9EF6B7631C33BDEA00299A62 /* UIView+CFA.m in Sources */,
+				9EF6B75C1C33BDEA00299A62 /* NSDate+CFA.m in Sources */,
+				9EF6B7641C33BDEA00299A62 /* CFABluetoothHelper.m in Sources */,
+				9EF6B75D1C33BDEA00299A62 /* NSDictionary+CFA.m in Sources */,
+				9EF6B7651C33BDEA00299A62 /* CFACounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
